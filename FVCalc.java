@@ -6,8 +6,7 @@ public class FVCalc {
         int years = Integer.parseInt(args[2]);
 		double cost = startsum * Math.pow(1 + ribit / 100.0, years);
 
-		System.out.println("After " + years + " years, $" + startsum +
-                   "  saved at" + ribit + "% will yield $" + (int) cost);	
+		System.out.println("After " + years + " years, $" + startsum +" saved at " + ribit + "% will yield $" + (int)cost);	
 		
 	}
 }    
